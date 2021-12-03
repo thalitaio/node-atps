@@ -1,0 +1,11 @@
+// Adicione o arquivo tsconfig.json e adicione as configurações de compilação, informando a versão do js, o local de destino, o local de origem, além das opções de não compilar, caso existe erro e também de não inferir tipos ANY automaticamente.
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "outDir": "dist/js",
+        "noEmitOnError": true,
+        "noImplicitAny": true
+
+    },
+    "target": ["src/**/*"],
+}
